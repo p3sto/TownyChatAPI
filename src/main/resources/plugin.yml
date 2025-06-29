@@ -1,0 +1,4 @@
+name: TownyChatAPI
+version: '0.0.1'
+main: io.github.p3sto.chatapi.TownyChatAPI
+api-version: '1.21'
