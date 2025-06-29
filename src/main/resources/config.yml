@@ -1,0 +1,25 @@
+# How should chat messages be sent
+# Options: websocket, redis
+bridge_method: "redis"
+
+# ====================================#
+#       Redis Connection Settings
+# ====================================#
+
+# This section is ignored if `bridge_method` is set to websocket
+redis:
+    host: "localhost"
+    
+    # The settings below are optional. Comment out unused
+    # settings, and the default options will be used
+    #
+    # Note: If using authentication, both username and password must be provided
+    port: 6379
+    timeout: 60s
+    username: ""
+    password: ""
+    database: 0
+    client_name: ""
+
+# Do not modify
+config_version: 1
