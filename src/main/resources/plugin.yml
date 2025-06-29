@@ -1,4 +1,4 @@
-name: TownyChatAPI
+name: TownyChatBridge
 version: '0.0.1'
-main: io.github.p3sto.chatapi.TownyChatAPI
+main: io.github.p3sto.chatbridge.TownyChatBridge
 api-version: '1.21'
